@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(219, 215, 215);
+}
+
+/* Styling heading texts */
+h3{
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+/* Styling up the Alarm clock app */
+
+#app{
+    width: 50%;
+    height: 60%;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    padding: 10px;
+    background-color: aliceblue;
+    box-shadow: 10px 10px 8px 10px #888888;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-radius: 10px;
+}
+
+/* Styling current time clock */
+#current-time{
+    text-align: center;
+    font-family:Impact;
+    font-size: 40px;
+}
+
+/* Styling set Alarm input fileds  */
+input{
+    width: 100px;
+}
+
+#set-alarm{
+    text-align: center;
+    width: 774px;
+    padding: 7px 0px;
+}
+
+/* Styling Added alarms */
+
+li{
+    width: 694px;
+    text-align: center;
+    list-style: none;
+    font-size: 28px;
+    margin: 30px auto;
+}
+
+li span{
+    padding: 0px 30px;
+    margin-left: -30px;
+}
+
+/* styling Alarm delete button */
+.delete {
+    height: 22px;
+}
+
+.delete:hover {
+
+    height: 25px;
+    cursor: pointer;
+}
