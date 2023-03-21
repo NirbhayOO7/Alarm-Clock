@@ -37,16 +37,18 @@ input{
     width: 100px;
 }
 
-#set-alarm{
-    text-align: center;
-    width: 774px;
-    padding: 7px 0px;
+#set-alarm-form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
 }
+
 
 /* Styling Added alarms */
 
 li{
-    width: 694px;
+    /* width: 694px; */
     text-align: center;
     list-style: none;
     font-size: 28px;

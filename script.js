@@ -53,8 +53,8 @@
         }
 
         const timeString = getTimeString({hours, minutes, seconds, zone});
-        checkAlarm(timeString);
         currentTime.innerHTML = timeString;
+        checkAlarm(timeString);
     }
 
     // function to show notification 
@@ -102,7 +102,7 @@
         else{
             showNotification("Alarm with same time already present!");
         }
-        renderAlarmList(alarmList)
+        renderAlarmList(alarmList);
         return;
     }
 
